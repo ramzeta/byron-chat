@@ -1,0 +1,85 @@
+body {
+  height: 100vh !important;
+  overflow: hidden !important;
+  background-color: #223b26 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #233b22 !important;
+  border-radius: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #152d1e !important;
+  border-radius: 15px;
+}
+
+.emoji-mart {
+  position: absolute !important;
+  bottom: 75px !important;
+}
+
+.emoji-mart-preview {
+  display: none !important;
+}
+
+.MuiInputLabel-outlined {
+  color: rgba(173, 173, 173, 0.89) !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: 0 !important;
+}
+
+.MuiInputBase-root {
+  color: rgb(245, 245, 245) !important;
+}
+
+.MuiInputBase-root.Mui-disabled {
+  color: rgba(255, 255, 255, 0.53) !important;
+  cursor: default !important;
+}
+
+.MuiDivider-root {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.MuiDialog-paper {
+  overflow-y: visible !important;
+  background-color: #203528 !important;
+  color: #dcddde !important;
+  width: 530px;
+}
+
+.emoji-mart-dark {
+  color: #fff;
+  border-color: #223b26 !important;
+  background-color: #12281a !important;
+}
+
+.emoji-mart-dark .emoji-mart-category-label span {
+  background-color: #12281c !important;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.emoji-mart-dark .emoji-mart-search input {
+  color: #fff;
+  border-color: #223b29;
+  background-color: #223b2a;
+}
+
+a {
+  color: #a7ffc4;
+}
+
+.MuiSnackbarContent-root {
+  background-color: rgb(52, 125, 79) !important;
+}
